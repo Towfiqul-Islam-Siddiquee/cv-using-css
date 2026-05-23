@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Towfiqul Islam Siddiquee</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background: #f2f5f9;
+            color: #333;
+            line-height: 1.7;
+        }
+
+      
+        header{
+            background: linear-gradient(135deg, #0f9b0f, #38ef7d);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header h2{
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        header p{
+            font-size: 18px;
+        }
+
+        .container{
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+       
+        .profile{
+            text-align: center;
+            padding: 30px;
+            background: #fafafa;
+        }
+
+        .profile img{
+            width: 220px;
+            height: 300px;
+            object-fit: cover;
+            border: 5px solid #38ef7d;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .profile h2{
+            color: #0f9b0f;
+            margin-bottom: 10px;
+        }
+
+       
+        section{
+            padding: 30px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        section:last-child{
+            border-bottom: none;
+        }
+
+        section h2{
+            color: #0f9b0f;
+            margin-bottom: 15px;
+            font-size: 28px;
+            border-left: 5px solid #38ef7d;
+            padding-left: 10px;
+        }
+
+      
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table th{
+            background: #0f9b0f;
+            color: white;
+        }
+
+        table th,
+        table td{
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        table tr:nth-child(even){
+            background: #f9f9f9;
+        }
+
+      
+        .skills{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span{
+            background: #0f9b0f;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .skills span:hover{
+            background: #38ef7d;
+            transform: scale(1.05);
+        }
+
+       
+        ul{
+            margin-left: 20px;
+        }
+
+        ul li{
+            margin-bottom: 10px;
+        }
+
+        
+        a{
+            color: #0f9b0f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        
+        blockquote{
+            background: #f3fff3;
+            border-left: 5px solid #0f9b0f;
+            padding: 20px;
+            font-style: italic;
+            margin-top: 15px;
+        }
+
+       
+        footer{
+            text-align: center;
+            background: #0f9b0f;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+      
+        @media(max-width:768px){
+
+            header h1{
+                font-size: 30px;
+            }
+
+            header h2{
+                font-size: 22px;
+            }
+
+            .profile img{
+                width: 180px;
+                height: 250px;
+            }
+
+            table{
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Curriculum Vitae</h1>
+        <h2>Towfiqul Islam Siddiquee</h2>
+        <p>Computer Science & Engineering Student | Premier University, Chittagong</p>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Profile -->
+        <div class="profile">
+            <img src="mypic.png" alt="Profile Picture">
+
+            <h2>About Me</h2>
+
+            <p>
+                Motivated and detail-oriented Computer Science student seeking opportunities 
+                to apply my knowledge in software development, problem-solving, and data analysis 
+                to contribute to innovative projects while continuously learning and growing.
+            </p>
+        </div>
+
+        <!-- Basic Information -->
+        <section>
+            <h2>Basic Information</h2>
+
+            <p><strong>Full Name:</strong> Towfiqul Islam Siddiquee</p>
+            <p><strong>Father's Name:</strong> Jamal Ahmed Sikder</p>
+            <p><strong>Mother's Name:</strong> Dilruba Begum</p>
+            <p><strong>Date of Birth:</strong> 08 January 2004</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Nationality:</strong> Bangladeshi</p>
+            <p><strong>Religion:</strong> Islam</p>
+            <p><strong>Marital Status:</strong> Married</p>
+            <p><strong>Blood Group:</strong> A+</p>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>BSc in CSE</td>
+                        <td>Premier University, Chittagong</td>
+                        <td>2024 - Present</td>
+                        <td>CGPA: Running</td>
+                    </tr>
+
+                    <tr>
+                        <td>Higher Secondary Certificate</td>
+                        <td>Hazera Taju Degree College, Chittagong</td>
+                        <td>2020 - 2022</td>
+                        <td>GPA: 5.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Secondary School Certificate</td>
+                        <td>Nasirabad Government Boys High School, Chittagong</td>
+                        <td>2018 - 2020</td>
+                        <td>GPA: 5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>C++</span>
+                <span>Data Structures</span>
+                <span>JavaScript</span>
+                <span>Problem Solving</span>
+            </div>
+        </section>
+
+        <!-- Interests -->
+        <section>
+            <h2>Interests</h2>
+
+            <ul>
+                <li>Web Development</li>
+                <li>Competitive Programming</li>
+                <li>Artificial Intelligence & Machine Learning</li>
+                <li>Reading Technology Blogs</li>
+                <li>Open Source Contribution</li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section>
+            <h2>Contact Information</h2>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:itowfiqul3@gmail.com">
+                    itowfiqul3@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                +880 1518388736
+            </p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/towfiqul-islam-siddiquee/" target="_blank">
+                    linkedin.com/in/towfiqul-islam-siddiquee
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/Towfiqul-Islam-Siddiquee" target="_blank">
+                    github.com/Towfiqul-Islam-Siddiquee
+                </a>
+            </p>
+        </section>
+
+        <!-- Quote -->
+        <section>
+            <h2>Personal Quote</h2>
+
+            <blockquote>
+                “The best way to predict the future is to invent it.” – Alan Kay
+            </blockquote>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Towfiqul Islam Siddiquee. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
